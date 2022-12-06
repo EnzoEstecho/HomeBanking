@@ -1,0 +1,420 @@
+
+
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+
+.limiter {
+    width: 100%;
+    margin: 0 auto
+}
+
+.container-login100 {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1
+}
+
+.container-login100::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.80)
+}
+
+.login_topimg {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    min-height: 250px;
+    position: relative;
+    background: #91B3D1 url(https://img.freepik.com/vector-premium/concepto-transacciones-bancarias-monetarias-linea-icono-banco-divisas-sobre-fondo-azul-oscuro_387612-67.jpg) no-repeat;
+    background-size: auto;
+    background-position-x: -5rem;
+    background-position-y: -2rem;
+}
+
+
+
+
+#login .wrap-login100 {
+    background-color:#a7a7a7;
+    padding: 20px 45px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100%
+}
+
+.login100-form {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.login100-form-title {
+    font-size: 25px;
+    color: #100f46;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    display: block
+}
+
+.login100-form-subtitle {
+    font-size: 16px;
+    color: #100f46;
+    line-height: 1.2;
+    text-align: center;
+    width: 100%;
+    display: block
+}
+
+.wrap-input100 {
+    position: relative;
+    width: 100%;
+    z-index: 1
+}
+
+.input-checkbox100 {
+    display: none
+}
+
+input {
+    outline: none;
+    border: none
+}
+
+.wrap-input100 {
+    position: relative;
+    width: 100%;
+    z-index: 1
+}
+
+.input100 {
+    font-size: 15px;
+    line-height: 1.2;
+    color:#100f46;
+    display: block;
+    width: 100%;
+    background:#999999;
+    height: 45px;
+    border-radius: 3px;
+    padding: 0 30px 0 55px
+}
+
+.focus-input100 {
+    display: block;
+    position: absolute;
+    border-radius: 3px;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 0px 0px;
+    color: rgba(211, 63, 141, 0.6)
+}
+
+.symbol-input100 {
+    font-size: 15px;
+    color: #999999;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    border-radius: 25px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 23px;
+    padding-bottom: 5px;
+    pointer-events: none;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s
+}
+
+::-webkit-input-placeholder {
+    opacity: 1;
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s
+}
+
+:-moz-placeholder {
+    opacity: 1;
+    -moz-transition: opacity .5s;
+    transition: opacity .5s
+}
+
+::-moz-placeholder {
+    opacity: 1;
+    -moz-transition: opacity .5s;
+    transition: opacity .5s
+}
+
+:-ms-input-placeholder {
+    opacity: 1;
+    -ms-transition: opacity .5s;
+    transition: opacity .5s
+}
+
+::placeholder {
+    opacity: 1;
+    transition: opacity .5s
+}
+
+*:focus::-webkit-input-placeholder {
+    opacity: 0
+}
+
+*:focus:-moz-placeholder {
+    opacity: 0
+}
+
+*:focus::-moz-placeholder {
+    opacity: 0
+}
+
+*:focus:-ms-input-placeholder {
+    opacity: 0
+}
+
+*:focus::placeholder {
+    opacity: 0
+}
+
+.lnr {
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.flex-sb-m {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center
+}
+
+.w-full {
+    width: 100%
+}
+
+.p-b-30 {
+    padding-bottom: 30px
+}
+
+.input-checkbox100:checked+.label-checkbox100::before {
+    color: #09569B
+}
+
+.label-checkbox100 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #100f46;
+    line-height: 1.2;
+    display: block;
+    position: relative;
+    padding-left: 26px;
+    cursor: pointer
+}
+
+.m-b-16 {
+    margin-bottom: 16px
+}
+
+.p-b-55 {
+    padding-bottom: 55px
+}
+
+.container-login100-form-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.login100-form-btn:hover {
+    background: #333333
+}
+
+.label-checkbox100::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 13px;
+    color: transparent;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    background: #fff;
+    border: 2px solid #09569B;
+    left: 0;
+    top: 48%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+   
+}
+
+#login button:hover {
+    cursor: pointer   
+}
+
+
+.buttomCreate{
+
+    background: rgb(12,14,52);
+    background: radial-gradient(circle, rgba(12,14,52,1) 46%, rgba(38,51,94,1) 85%);
+    padding: 10px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 2s;
+    background-size: 200% auto;
+    text-decoration: none;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.479);
+   
+   
+  
+  }
+
+
+  .buttomCreate:hover {
+    background-position: right center; 
+    background: rgb(12,14,52);
+    background: radial-gradient(circle, rgba(12,14,52,1) 46%, rgba(38,51,94,1) 85%);
+    text-decoration: none;
+  }
+  
+
+
+
+.colorA{
+    color: #100f46;
+    text-decoration: none;
+}
+
+
+
+#login button {
+    outline: none !important;
+    border-radius: 9px;
+    color: white
+   
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 750px
+    }
+
+    #login .wrap-login100 {
+        padding: 27px
+    }
+
+    .login_topimg .logo_wrap {
+        padding: 5px 55px
+    }
+}
+
+
+/* From uiverse.io by @alexruix */
+.input-group {
+    position: relative;
+    margin-top: 1rem;
+    
+   }
+   
+   .input {
+    border: solid 1.5px rgba(24, 24, 124, 0.322);
+    border-radius: 1rem !important;
+    background: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: rgb(17, 17, 105);
+    transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+   }
+   
+   .user-label {
+    position: absolute;
+    left: 15px;
+    color: rgb(24, 24, 124);
+    pointer-events: none;
+    transform: translateY(1rem);
+    transition: 150ms cubic-bezier(0.4,0,0.2,1);
+   }
+   
+   .input:focus, input:valid {
+    outline: none;
+    border: 1.5px solid #1a73e8;
+   }
+   
+   .input:focus ~ label, input:valid ~ label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: #1a73e8;
+    padding: 0 .2em;
+    color: white;
+    border-radius: 0.5rem !important;
+    font-weight: 400;
+   }
+
+.txt1{
+    color: #100f46;
+}
+
